@@ -12,51 +12,62 @@
     
     <div class="container-fluid">
 
-        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+              <a class="navbar-brand" href="#"> <img src="static/images/20220815_182526_0000.png" class="d-block w-100" alt="..." style="width: rem; height: 6rem;"> </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav me-auto">
+                  
                   <li class="nav-item">
-                    <a class="nav-link active" href="#">Home
-                      <span class="visually-hidden">(current)</span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link active" href="#Project">PROJECTS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link active" href="#CV">RESUME</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link active" href="#hobbies">INTERESTS</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Separated link</a>
-                    </div>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#hobbies">CONTACTS</a>
                   </li>
+                  
                 </ul>
                 
               </div>
             </div>
           </nav>
 
-        <div class="row" >
+        <div class="row" style="margin-top: 0.5rem;" >
             
                 <div class="colum1 col-md-4 col-sm-4">
-                    <p>123</p>
+                  <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="static/images/Kgothatso.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
                 </div>
-                <div class="column2 col-md-8 col-sm-8">
-                  <h1>about me</h1>
+
+                <div class="column2 col-md-8 col-sm-8" style="padding-top: 5rem;">
+                  <h1>about Kgothatso</h1>
                   <p>You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two
       integers m and n, representing the number of elements in nums1 and nums2 respectively.
       Merge nums1 and nums2 into a single array sorted in non-decreasing order.
@@ -70,11 +81,7 @@
                 
         </div>
         
-        <div class="row">
-            <h1>CV</h1>
-            <p>But </p>
-        </div>
-        <div class="row">
+        <div class="row" id="Project" style="margin-top: 2rem;">
             <h1>projects</h1>
 
             <table class="table table-hover">
@@ -171,9 +178,20 @@
                 </tbody>
               </table>
 
+              <div class="row" id="CV" style="margin-top: 2rem;">
+                <h1>SKILLS</h1>
+                <p>But </p>
+              </div>
+
+              <div class="row" id="CV" style="margin-top: 2rem;">
+                <h1>RESUME</h1>
+                <p>But </p>
+              </div>
+
         </div>
-        <div class="row">
-            <h1>hobbies</h1>
+
+        <div class="row" id="hobbies" style="margin-top: 2rem;">
+            <h1>Interests</h1>
             <div class="row">
               <div class="  col-md-3">
                 <p>123</p>
@@ -215,12 +233,28 @@
             </div>
         </div>
         
-        <footer > 
+        <footer class="footer  bg-black" style="color: whitesmoke; text-align: center; margin-top: 0.5rem;"> 
             <div class="row">
-              <h1>contact me</h1>
-              <P>Linked in</P>
-              <p>contact</p>
-              <p>email</p>
+              <div class="row">
+
+                <div class="  col-md-3">
+                  <i class="fa-brands fa-square-github"> Github</i>
+                </div>
+
+                <div class="  col-md-3">
+                  <i class="fa-brands fa-linkedin"> Linked in</i>
+                </div>
+
+                <div class="  col-md-3">
+                  <i class="fa-solid fa-phone"> contact</i>
+                </div>
+
+                <div class="  col-md-3">
+                  <i class="fa-solid fa-envelope"> email</i>
+                </div>
+  
+              </div>
+              
             </div>
         </footer>
         
