@@ -1,0 +1,11 @@
+/* Apply Flexbox to the container */
+.table-container {
+    display: flex;
+    flex-direction: column; /* Makes the table rows stack vertically */
+  }
+  
+  /* Optional: Apply styles to the table for better readability on small screens */
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse; /* Remove spacing between table cells */
+  }
