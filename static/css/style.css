@@ -5,7 +5,7 @@
   }
   
   /* Optional: Apply styles to the table for better readability on small screens */
-  .table-container table {
+.table-container table {
     width: 100%;
     border-collapse: collapse; /* Remove spacing between table cells */
   }
