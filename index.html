@@ -1,415 +1,697 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/bootstrap.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static/css/bootstrap.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <title>K.Phooko Home</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="static/images/20220815_182526_0000.png"
+              class="d-block w-100"
+              alt="..."
+              style="width: rem; height: 6rem"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarColor01"
+            aria-controls="navbarColor01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#Project">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#techstack">Tech Stack</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#Education">EDUCATION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#SD">SELF DEVELOPMENT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#hobbies">INTERESTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#CONTACTS">CONTACTS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-        <nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"> <img src="static/images/20220815_182526_0000.png" class="d-block w-100" alt="..." style="width: rem; height: 6rem;"> </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarColor01">
-                <ul class="navbar-nav me-auto">
-                  
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#Project">PROJECTS</a>
+      <div class="row" style="margin-top: 0.5rem">
+        <div class="colum1 col-md-4 col-sm-4">
+          <img
+            src="static/images/Kgothatso.png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+
+        <div class="column2 col-md-8 col-sm-8" style="padding-top: 5rem">
+          <h1
+            style="
+              background-color: black;
+              color: whitesmoke;
+              width: 27rem;
+              padding-left: 0.5rem;
+            "
+          >
+            about Kgothatso
+          </h1>
+          <p>
+            I am an enthusiastic and inquisitive individual. I thrive on
+            constantly learning new skills and putting in the effort to truly
+            understand and excel at them. In my free time, I find great joy in
+            both exercising my body and expanding my knowledge through reading.
+            Sci-fi movies are a particular favorite of mine, transporting me to
+            imaginative worlds beyond our own. Additionally, I love exploring
+            the vast world of technology and innovation by watching tech
+            channels on YouTube. I strongly believe in the power of education to
+            open doors and create new opportunities. For me, learning is not
+            just a phase of life; it's a lifelong journey that never ends.
+            Embracing this philosophy, I continuously seek to improve and grow,
+            always embracing new challenges and seizing opportunities for
+            self-improvement.
+          </p>
+        </div>
+      </div>
+
+      <div class="row" id="Project" style="margin-top: 2rem">
+        <h1
+          style="
+            background-color: black;
+            color: whitesmoke;
+            width: 15rem;
+            margin-left: 0.72rem;
+          "
+        >
+          projects
+        </h1>
+
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Type</th>
+              <th scope="col">Project details</th>
+              <th scope="col">Visit</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-light">
+              <th scope="row">
+                <img
+                  src="static/images/PROJECTS/Screenshot (167).png"
+                  alt="Under construction"
+                  width="50%"
+                  style="margin-left: 5rem"
+                />
+              </th>
+              <td style="width: 60rem">
+                <p>
+                  I'm currently working on diverse software projects utilizing
+                  Django, HTML, Bootstrap, Git, Docker, Nginx, Python,
+                  JavaScript, MySQL, Elasticsearch, Jenkins, and AWS. Exciting
+                  advancements are underway, showcasing the power of these
+                  cutting-edge technologies.
+                </p>
+              </td>
+              <td style="width: 14rem">
+                <ul>
+                  <li>
+                    <a href="#" style="color: black"
+                      ><i class="fa-solid fa-box"> Github repo</i>
+                    </a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#techstack">Tech Stack</a>
+                  <li>
+                    <a href="#" style="color: black"
+                      ><i class="fa-solid fa-circle-info" style="size: 2px">
+                        Live Demo</i
+                      >
+                    </a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#CV">RESUME</a>
+                  <li>
+                    <a href="#" style="color: black"
+                      ><i class="fa-solid fa-video"> Presentation</i></a
+                    >
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#hobbies">INTERESTS</a>
+                  <li>
+                    <a href="#" style="color: black"
+                      ><i class="fa-brands fa-readme"> Blog Post</i>
+                    </a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#hobbies">CONTACTS</a>
-                  </li>
-                  
                 </ul>
-                
-              </div>
+              </td>
+            </tr>
+            <tr class="table-light">
+              <th scope="row">
+                <img
+                  src="static/images/PROJECTS/Screenshot (167).png"
+                  alt=""
+                  width="50%"
+                  style="margin-left: 5rem"
+                />
+              </th>
+              <td style="width: 60rem">
+                <p>
+                  I'm currently working on diverse software projects utilizing
+                  Django, HTML, Bootstrap, Git, Docker, Nginx, Python,
+                  JavaScript, MySQL, Elasticsearch, Jenkins, and AWS. Exciting
+                  advancements are underway, showcasing the power of these
+                  cutting-edge technologies.
+                </p>
+              </td>
+              <td style="width: 14rem">
+                <ul>
+                  <li>
+                    <a href="#" style="color: black"
+                      ><i class="fa-solid fa-box"> Github repo</i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" style="color: black"
+                      ><i class="fa-solid fa-circle-info" style="size: 2px">
+                        Live Demo</i
+                      >
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" style="color: black"
+                      ><i class="fa-solid fa-video"> Presentation</i></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: black"
+                      ><i class="fa-brands fa-readme"> Blog Post</i>
+                    </a>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr class="table-light">
+              <th scope="row">
+                <img
+                  src="static/images/PROJECTS/Screenshot (167).png"
+                  alt=""
+                  width="50%"
+                  style="margin-left: 5rem"
+                />
+              </th>
+              <td style="width: 60rem">
+                <p>
+                  I'm currently working on diverse software projects utilizing
+                  Django, HTML, Bootstrap, Git, Docker, Nginx, Python,
+                  JavaScript, MySQL, Elasticsearch, Jenkins, and AWS. Exciting
+                  advancements are underway, showcasing the power of these
+                  cutting-edge technologies.
+                </p>
+              </td>
+              <td style="width: 14rem">
+                <ul>
+                  <li>
+                    <a href="#" style="color: black"
+                      ><i class="fa-solid fa-box"> Github repo</i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" style="color: black"
+                      ><i class="fa-solid fa-circle-info" style="size: 2px">
+                        Live Demo</i
+                      >
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" style="color: black"
+                      ><i class="fa-solid fa-video"> Presentation</i></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: black"
+                      ><i class="fa-brands fa-readme"> Blog Post</i>
+                    </a>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr class="table-light">
+              <th scope="row">
+                <img
+                  src="static/images/PROJECTS/Screenshot (167).png"
+                  alt=""
+                  width="50%"
+                  style="margin-left: 5rem"
+                />
+              </th>
+              <td style="width: 60rem">
+                <p>
+                  I'm currently working on diverse software projects utilizing
+                  Django, HTML, Bootstrap, Git, Docker, Nginx, Python,
+                  JavaScript, MySQL, Elasticsearch, Jenkins, and AWS. Exciting
+                  advancements are underway, showcasing the power of these
+                  cutting-edge technologies.
+                </p>
+              </td>
+              <td style="width: 14rem">
+                <ul>
+                  <li>
+                    <a href="#" style="color: black"
+                      ><i class="fa-solid fa-box"> Github repo</i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" style="color: black"
+                      ><i class="fa-solid fa-circle-info" style="size: 2px">
+                        Live Demo</i
+                      >
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" style="color: black"
+                      ><i class="fa-solid fa-video"> Presentation</i></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" style="color: black"
+                      ><i class="fa-brands fa-readme"> Blog Post</i>
+                    </a>
+                  </li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="row" id="techstack" style="margin-top: 2rem">
+          <h1
+            style="
+              background-color: black;
+              color: whitesmoke;
+              width: 18rem;
+              margin-left: 0.72rem;
+            "
+          >
+            Tech Stack
+          </h1>
+
+          <div class="row" style="margin-top: 0.1rem; padding-left: 16rem">
+            <div class="col-md-3">
+              <img
+                src="static/images/stack/Screenshot (153).png"
+                alt=""
+                style="width: 7.5rem; height: 7.5rem"
+              />
             </div>
-          </nav>
 
-        <div class="row" style="margin-top: 0.5rem;" >
-            
-                <div class="colum1 col-md-4 col-sm-4">
-                  <div id="carouselExample" class="carousel slide">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="static/images/Kgothatso.png" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-                </div>
+            <div class="col-md-3">
+              <img
+                src="static/images/stack/Screenshot (154).png"
+                alt=""
+                style="width: 7.5rem; height: 7.5rem"
+              />
+            </div>
 
-                <div class="column2 col-md-8 col-sm-8" style="padding-top: 5rem;">
-                  <h1 style="background-color: black; color: whitesmoke; width: 27rem; padding-left: 0.5rem;">about Kgothatso</h1>
-                  <p>You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two
-      integers m and n, representing the number of elements in nums1 and nums2 respectively.
-      Merge nums1 and nums2 into a single array sorted in non-decreasing order.
-      The final sorted array should not be returned by the function, but instead be stored inside the array
-      nums1. To accommodate this, nums1 has a length of m + n, where the first m elements denote the
-      elements that should be merged, and the last n elements are set to 0 and should be ignored. nums2
-      has a length of n.
-      Example 1:none                   j                           j                            j                o                    h               b             d</p>
-                </div>
-            
-                
+            <div class="col-md-3">
+              <img
+                src="static/images/stack/Screenshot (155).png"
+                alt=""
+                style="width: 7.5rem; height: 7.5rem"
+              />
+            </div>
+
+            <div class="col-md-3">
+              <img
+                src="static/images/stack/Screenshot (156).png"
+                alt=""
+                style="width: 7.5rem; height: 7.5rem"
+              />
+            </div>
+          </div>
+
+          <div class="row" style="margin-top: 0.1rem; padding-left: 16rem">
+            <div class="col-md-3">
+              <img
+                src="static/images/stack/Screenshot (157).png"
+                alt=""
+                style="width: 7.5rem; height: 7.5rem"
+              />
+            </div>
+            <div class="col-md-3">
+              <img
+                src="static/images/stack/Screenshot (158).png"
+                alt=""
+                style="width: 7.5rem; height: 7.5rem"
+              />
+            </div>
+            <div class="col-md-3">
+              <img
+                src="static/images/stack/Screenshot (159).png"
+                alt=""
+                style="width: 7.5rem; height: 7.5rem"
+              />
+            </div>
+            <div class="col-md-3">
+              <img
+                src="static/images/stack/Screenshot (160).png"
+                alt=""
+                style="width: 7.5rem; height: 7.5rem"
+              />
+            </div>
+          </div>
+
+          <div class="row" style="margin-top: 0.1rem; padding-left: 16rem">
+            <div class="col-md-3">
+              <img
+                src="static/images/stack/Screenshot (161).png"
+                alt=""
+                style="width: 7.5rem; height: 7.5rem"
+              />
+            </div>
+            <div class="col-md-3">
+              <img
+                src="static/images/stack/Screenshot (162).png"
+                alt=""
+                style="width: 7.5rem; height: 7.5rem"
+              />
+            </div>
+            <div class="col-md-3">
+              <img
+                src="static/images/stack/Screenshot (163).png"
+                alt=""
+                style="width: 7.5rem; height: 7.5rem"
+              />
+            </div>
+            <div class="col-md-3">
+              <img
+                src="static/images/stack/Screenshot (164).png"
+                alt=""
+                style="width: 7.5rem; height: 7.5rem"
+              />
+            </div>
+          </div>
         </div>
-        
-        <div class="row" id="Project" style="margin-top: 2rem;">
-            <h1 style="background-color: black; color: whitesmoke; width: 15rem; margin-left: 0.72rem;">projects</h1>
 
+        <div class="row" id="Education" style="margin-top: 2rem">
+          <h1
+            style="
+              background-color: black;
+              color: whitesmoke;
+              width: 17rem;
+              margin-left: 0.72rem;
+            "
+          >
+            Education
+          </h1>
+          <div class="row">
+            <div class="col-md-1">
+              <img
+                src="static/images/logo/Screenshot (166).png"
+                alt=""
+                style="width: 5.5rem"
+              />
+            </div>
+
+            <div class="col-md-11" style="align-content: left">
+              <h5 style="text-align: left">
+                Hyperiondev, 06/02/2023 - 06/05/2023
+              </h5>
+              <h5>Software Engineering Bootcamp</h5>
+              <h5>Ranked 2nd in cohort</h5>
+            </div>
+          </div>
+
+          <div class="row">
+            <ul style="margin-left: 0.5rem">
+              <li>
+                <p>
+                  Completed an intensive Python software engineering bootcamp
+                  covering fundamental programming concepts, data structures,
+                  software development best practices, data Science , Advanced
+                  Algorithms and introduction to Software Engineering.
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  Created web applications using Django framework, implementing
+                  features such as user authentication, database integration,
+                  and dynamic content generation. Leveraged SQLite database for
+                  data storage and retrieval ensuring efficient data management
+                  and security.
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  Implemented responsive front-end designs using HTML and CSS to
+                  enhance the user experience.
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  Demonstrated problem-solving skills by resolving complex
+                  technical challenges and debugging issues during the bootcamp
+                  projects.
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  Applying agile methodologies and version control using Git and
+                  GitHub for effective project management, code repository
+                  management and ensuring seamless integration with development
+                  workflows
+                </p>
+              </li>
+
+              <li>
+                <p>
+                  Dockerized applications and utilized DockerHub for
+                  containerization and deployment, enhancing scalability and
+                  portability.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row" id="SD" style="margin-top: 2rem">
+          <h1
+            style="
+              background-color: black;
+              color: whitesmoke;
+              width: 28rem;
+              margin-left: 0.72rem;
+            "
+          >
+            SELF DEVELOPMENT
+          </h1>
+          <div>
+            <!-- A table for education and traning -->
             <table class="table table-hover">
-                <thead>
-                  <tr>
-                    <th scope="col">Type</th>
-                    <th scope="col">Project details</th>
-                    <th scope="col">Visit</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr class="table-light">
-                    <th scope="row">Picture</th>
-                    <td style="width: 60rem;">
-                        <p>details details - This code defines a class named `Solution` with a method `merge`. The method takes in four
-                            parameters: `nums1`, `m`, `nums2`, and `n`. `nums1` is the array where the merged elements will be
-                            stored, `m` is the number of elements in `nums1`, `nums2` is the array to be merged, and `n` is the
-                            number of elements in `nums2`.details</p>
-                    </td>
-                    <td>
-                      <ul>
-                        <li><a href="#" style="color: black;"><i class="fa-solid fa-box"> Github repo</i> </a></li>
-                        <li><a href="#" style="color: black;"><i class="fa-solid fa-circle-info" style="size: 2px;"> Live Demo</i> </a></li>
-                        <li><a href="#" style="color: black;"><i class="fa-solid fa-video"> Presentation</i></a></li>
-                        <li><a href="#" style="color: black;"><i class="fa-brands fa-readme"> Blog Post</i> </a></li>
-                    </ul>
-                        
-                    </td>
-                  </tr>
-                  <tr class="table-light">
-                    <th scope="row">Picture</th>
-                    <td style="width: 60rem;">
-                        <p>details details - This code defines a class named `Solution` with a method `merge`. The method takes in four
-                            parameters: `nums1`, `m`, `nums2`, and `n`. `nums1` is the array where the merged elements will be
-                            stored, `m` is the number of elements in `nums1`, `nums2` is the array to be merged, and `n` is the
-                            number of elements in `nums2`.details</p>
-                    </td>
-                    <td>
-                      <ul>
-                        <li><a href="#" style="color: black;"><i class="fa-solid fa-box"> Github repo</i> </a></li>
-                        <li><a href="#" style="color: black;"><i class="fa-solid fa-circle-info" style="size: 2px;"> Live Demo</i> </a></li>
-                        <li><a href="#" style="color: black;"><i class="fa-solid fa-video"> Presentation</i></a></li>
-                        <li><a href="#" style="color: black;"><i class="fa-brands fa-readme"> Blog Post</i> </a></li>
-                    </ul>
-                        
-                    </td>
-                  </tr>
-                  <tr class="table-light">
-                    <th scope="row">Picture</th>
-                    <td style="width: 60rem;">
-                        <p>details details - This code defines a class named `Solution` with a method `merge`. The method takes in four
-                            parameters: `nums1`, `m`, `nums2`, and `n`. `nums1` is the array where the merged elements will be
-                            stored, `m` is the number of elements in `nums1`, `nums2` is the array to be merged, and `n` is the
-                            number of elements in `nums2`.details</p>
-                    </td>
-                    <td>
-                      <ul>
-                        <li><a href="#" style="color: black;"><i class="fa-solid fa-box"> Github repo</i> </a></li>
-                        <li><a href="#" style="color: black;"><i class="fa-solid fa-circle-info" style="size: 2px;"> Live Demo</i> </a></li>
-                        <li><a href="#" style="color: black;"><i class="fa-solid fa-video"> Presentation</i></a></li>
-                        <li><a href="#" style="color: black;"><i class="fa-brands fa-readme"> Blog Post</i> </a></li>
-                    </ul>
-                        
-                    </td>
-                  </tr>
-                  <tr class="table-light">
-                    <th scope="row">Picture</th>
-                    <td style="width: 60rem;">
-                        <p>details details - This code defines a class named `Solution` with a method `merge`. The method takes in four
-                            parameters: `nums1`, `m`, `nums2`, and `n`. `nums1` is the array where the merged elements will be
-                            stored, `m` is the number of elements in `nums1`, `nums2` is the array to be merged, and `n` is the
-                            number of elements in `nums2`.details</p>
-                    </td>
-                    <td>
-                        <ul>
-                            <li><a href="#" style="color: black;"><i class="fa-solid fa-box"> Github repo</i> </a></li>
-                            <li><a href="#" style="color: black;"><i class="fa-solid fa-circle-info" style="size: 2px;"> Live Demo</i> </a></li>
-                            <li><a href="#" style="color: black;"><i class="fa-solid fa-video"> Presentation</i></a></li>
-                            <li><a href="#" style="color: black;"><i class="fa-brands fa-readme"> Blog Post</i> </a></li>
-                        </ul>
-                        
-                    </td>
-                  </tr>
-                  
-                  
-                </tbody>
-              </table>
+              <!-- 1st table row, with table haeaders -->
+              <tr>
+                <th>Education and Training</th>
+                <th>Institution/Provider</th>
+                <th>Location/Duration</th>
+              </tr>
+              <!-- 4th to 6th rows for Great learning certificate -->
+              <tr>
+                <td>
+                  Introduction to Design Thinking certificate of completion
+                </td>
+                <td>Great Learning</td>
+                <td>Online, Self-paced</td>
+              </tr>
+              <tr>
+                <td>Python Data Structures certificate of completion</td>
+                <td>Great Learning</td>
+                <td>Online, Self-paced</td>
+              </tr>
+              <tr>
+                <td>Software Testing certificate of completion</td>
+                <td>Great Learning</td>
+                <td>Online, Self-paced</td>
+              </tr>
+              <!-- 7th to 13th rows for Code Studio certificate -->
+              <tr>
+                <td>Basics in Python certificate of completion</td>
+                <td>Code Studio</td>
+                <td>online, 25 days</td>
+              </tr>
+              <tr>
+                <td>Basics in Python OOP certificate of completion</td>
+                <td>Code Studio</td>
+                <td>online, 25 days</td>
+              </tr>
+              <tr>
+                <td>Basics in C++ certificate of completion</td>
+                <td>Code Studio</td>
+                <td>online, 25 days</td>
+              </tr>
+              <tr>
+                <td>Basics in C++ OOP certificate of completion</td>
+                <td>Code Studio</td>
+                <td>online, 25 days</td>
+              </tr>
+              <tr>
+                <td>Basics in JAVA certificate of completion</td>
+                <td>Code Studio</td>
+                <td>online, 25 days</td>
+              </tr>
+              <tr>
+                <td>Basics in JAVA OOP certificate of completion</td>
+                <td>Code Studio</td>
+                <td>online, 25 days</td>
+                <!-- End of Code Studio certificate -->
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
 
-              <div class="row" id="techstack" style="margin-top: 2rem;">
-                <h1 style="background-color: black; color: whitesmoke; width: 18rem; margin-left: 0.72rem;">Tech Stack</h1>
-
-                <div class="row" style="margin-top: 0.10rem; padding-left: 16rem;">
-                  <div class="  col-md-3">
-                    <img src="static/images/stack/Screenshot (153).png" alt="" style="width: 7.5rem; height: 7.5rem;">
-                  </div>
-
-                  <div class="  col-md-3">
-                    <img src="static/images/stack/Screenshot (154).png" alt="" style="width: 7.5rem; height: 7.5rem;">
-                  </div>
-
-                  <div class="  col-md-3">
-                    <img src="static/images/stack/Screenshot (155).png" alt="" style="width: 7.5rem; height: 7.5rem;">
-                  </div>
-
-                  <div class="  col-md-3">
-                    <img src="static/images/stack/Screenshot (156).png" alt="" style="width: 7.5rem; height: 7.5rem;">
-                  </div>
-    
-                </div>
-
-                <div class="row" style="margin-top: 0.10rem; padding-left: 16rem;">
-                  <div class="  col-md-3">
-                    <img src="static/images/stack/Screenshot (157).png" alt="" style="width: 7.5rem; height: 7.5rem;">
-                  </div>
-                  <div class="  col-md-3">
-                    <img src="static/images/stack/Screenshot (158).png" alt="" style="width: 7.5rem; height: 7.5rem;">
-                  </div>
-                  <div class="  col-md-3">
-                    <img src="static/images/stack/Screenshot (159).png" alt="" style="width: 7.5rem; height: 7.5rem;">
-                  </div>
-                  <div class="  col-md-3">
-                    <img src="static/images/stack/Screenshot (160).png" alt="" style="width: 7.5rem; height: 7.5rem;">
-                  </div>
-                </div>
-
-                <div class="row" style="margin-top: 0.10rem; padding-left: 16rem;">
-                  <div class="  col-md-3">
-                    <img src="static/images/stack/Screenshot (161).png" alt="" style="width: 7.5rem; height: 7.5rem;">
-                  </div>
-                  <div class="  col-md-3">
-                    <img src="static/images/stack/Screenshot (162).png" alt="" style="width: 7.5rem; height: 7.5rem;">
-                  </div>
-                  <div class="  col-md-3">
-                    <img src="static/images/stack/Screenshot (163).png" alt="" style="width: 7.5rem; height: 7.5rem;">
-                  </div>
-                  <div class="  col-md-3">
-                    <img src="static/images/stack/Screenshot (164).png" alt="" style="width: 7.5rem; height: 7.5rem;">
-                  </div>
-    
-                </div>
-              </div>
-
-
-              <div class="row" id="Education" style="margin-top: 2rem;">
-                <h1 style="background-color: black; color: whitesmoke; width: 17rem; margin-left: 0.72rem;">Education</h1>
-                  <div class="row">
-                      <div class=" col-md-1">
-                          <img src="static/images/logo/Screenshot (166).png" alt="" style="width: 5.5rem;">
-                      </div>
-                      
-                      <div class=" col-md-11" style="align-content: left ;">
-                            
-                            <h5 style="text-align: left;">Hyperiondev, 06/02/2023 - 06/05/2023  </h5>
-                            <h5>Software Engineering Bootcamp  </h5>
-                            <h5>Ranked 2nd in cohort  </h5>
-                      </div>
-
-                  </div>
-                  
-                  <div class="row">
-                    <ul style="margin-left: 0.5rem;">
-                      <li>
-                        <p>Completed an intensive Python software engineering bootcamp covering fundamental programming concepts, data structures, software development best practices, data Science , Advanced Algorithms and introduction to Software Engineering.  </p>
-                      </li>
-    
-                      <li>                
-                        <p>Created web applications using Django framework, implementing features such as user authentication, database integration, and dynamic content generation. Leveraged SQLite database for data storage and retrieval ensuring efficient data management and security.  </p>
-                      </li>
-    
-                      <li>                
-                        <p>Implemented responsive front-end designs using HTML and CSS to enhance the user experience.  </p>
-                      </li>
-    
-                      <li>                
-                        <p>Demonstrated problem-solving skills by resolving complex technical challenges and debugging issues during the bootcamp projects.  </p>
-                      </li>
-    
-                      <li>                
-                        <p>Applying agile methodologies and version control using Git and GitHub for effective project management, code repository management and ensuring seamless integration with development workflows  </p>
-                      </li>
-    
-                      <li>                
-                        <p>Dockerized applications and utilized DockerHub for containerization and deployment, enhancing scalability and portability.  </p>
-                      </li>
-                    </ul>
-                  </div>
-                
-              </div>
-
-              <div class="row" id="CV" style="margin-top: 2rem;">
-                <h1 style="background-color: black; color: whitesmoke; width: 28rem; margin-left: 0.72rem;">SELF DEVELOPMENT</h1>
-                  <div >
-                        <!-- A table for education and traning -->
-                        <table class="table table-hover">
-                                <!-- 1st table row, with table haeaders -->
-                              <tr>
-                                    <th>Education and Training</th>
-                                    <th>Institution/Provider</th>
-                                    <th>Location/Duration</th>
-                                </tr>
-                                <!-- 4th to 6th rows for Great learning certificate -->
-                                <tr>
-                                    <td>Introduction to Design Thinking certificate of completion</td>
-                                    <td>Great Learning</td>
-                                    <td>Online, Self-paced</td>
-                                </tr>
-                                <tr>
-                                    <td>Python Data Structures certificate of completion</td>
-                                    <td>Great Learning</td>
-                                    <td>Online, Self-paced</td>
-                                </tr>
-                                <tr>
-                                    <td>Software Testing certificate of completion</td>
-                                    <td>Great Learning</td>
-                                    <td>Online, Self-paced</td>
-                                </tr>
-                                <!-- 7th to 13th rows for Code Studio certificate -->
-                                <tr>
-                                    <td>Basics in Python certificate of completion </td>
-                                    <td>Code Studio</td>
-                                    <td>online, 25 days</td>
-                                </tr>
-                                <tr>
-                                    <td>Basics in Python OOP certificate of completion </td>
-                                    <td>Code Studio</td>
-                                    <td>online, 25 days</td>
-                                </tr>
-                                <tr>
-                                    <td>Basics in C++ certificate of completion </td>
-                                    <td>Code Studio</td>
-                                    <td>online, 25 days</td>
-                                </tr>
-                                <tr>
-                                    <td>Basics in C++ OOP certificate of completion </td>
-                                    <td>Code Studio</td>
-                                    <td>online, 25 days</td>
-                                </tr>
-                                <tr>
-                                    <td>Basics in JAVA certificate of completion </td>
-                                    <td>Code Studio</td>
-                                    <td>online, 25 days</td>
-                                </tr>
-                                <tr>
-                                    <td>Basics in JAVA OOP certificate of completion </td>
-                                    <td>Code Studio</td>
-                                    <td>online, 25 days</td>
-                                    <!-- End of Code Studio certificate -->
-                                </tr>
-                              
-                        </table>
-                </div>
-
-              </div>
-
+      <div class="row" id="hobbies" style="margin-top: 2rem">
+        <h1
+          style="
+            background-color: black;
+            color: whitesmoke;
+            width: 15rem;
+            margin-left: 0.72rem;
+          "
+        >
+          Interests
+        </h1>
+        <div class="row">
+          <div class="col-md-2 col-sm-2" style="align-content: center">
+            <img
+              src="static/images/hobbies/Screenshot_20230725_212258_Instagram.jpg"
+              alt=""
+              style="width: 15rem; height: 8rem"
+            />
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <p>
+              I have a profound love for cars, but Lamborghini's allure
+              captivates me like no other—stunning designs, roaring engines.
+              Meticulous craftsmanship, performance excellence—transcending
+              ordinary driving, a true automotive dream.
+            </p>
+          </div>
+          <div class="col-md-2 col-sm-2">
+            <img
+              src="static/images/hobbies/Screenshot_20230722_180446_Chrome.jpg"
+              alt=""
+              style="width: 15rem; height: 8rem"
+            />
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <p>
+              Old England and Dutch-inspired architecture exude an air of
+              opulence and luxury that captivates me. These architectural styles
+              embody a timeless elegance that leaves me enamored with the allure
+              of old money and the enduring beauty of these structures.
+            </p>
+          </div>
         </div>
 
-        <div class="row" id="hobbies" style="margin-top: 2rem;">
-            <h1 style="background-color: black; color: whitesmoke; width: 15rem; margin-left: 0.72rem;">Interests</h1>
-            <div class="row">
-              <div class="  col-md-3 col-sm-3 " style="align-content: center;">
-                <img src="static/images/hobbies/Screenshot_20230725_212258_Instagram.jpg" alt="" style="width: 15rem; height: 8rem;">
-              </div>
-              <div class="  col-md-3">
-                <p>456</p>
-
-              </div>
-              <div class="  col-md-3">
-                <img src="static/images/hobbies/Screenshot_20230722_180446_Chrome.jpg" alt="" style="width: 15rem; height: 8rem;">
-
-              </div>
-              <div class="  col-md-3">
-                <p>963</p>
-
-              </div>
-
-            </div>
-            
-            <div class="row" style="margin-top: 0.75rem;">
-              <hr>
-              <div class="  col-md-3">
-                <p>123</p>
-
-              </div>
-              <div class="  col-md-3">
-                <img src="static/images/hobbies/tempFileForShare_20230726-201611.jpg" alt="" style="width: 8rem; height: 10rem;">
-
-              </div>
-              <div class="  col-md-3">
-                <p>789</p>
-
-              </div>
-              <div class="  col-md-3">
-                <img src="static/images/hobbies/Screenshot_20230726_201311_Chrome.jpg" alt="" style="width: 12rem; height: 10rem;">
-
-              </div>
-
-            </div>
+        <div class="row" style="margin-top: 0.75rem">
+          <hr />
+          <div class="col-md-4 col-sm-4">
+            <p>
+              I have a profound love for reading books, and among them, "The
+              Great Gatsby" holds a special place in my heart. Another favorite
+              of mine is "As a Man Thinketh," which has left a lasting impact on
+              my perspective. These literary treasures inspire and transport me
+              to different worlds, fostering a passion for the written word.
+            </p>
+          </div>
+          <div class="col-md-2 col-sm-2">
+            <img
+              src="static/images/hobbies/tempFileForShare_20230726-201611.jpg"
+              alt=""
+              style="width: 8rem; height: 10rem"
+            />
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <p>
+              I believe in staying physically fit, a healthy body serves as a
+              sanctuary for a healthy mind. Maintaining my well-being fuels not
+              only my physical vitality but also nourishes my mental clarity and
+              emotional balance. The connection between body and mind motivates
+              me to embrace a lifestyle that prioritizes both aspects.
+            </p>
+          </div>
+          <div class="col-md-2 col-sm-2">
+            <img
+              src="static/images/hobbies/Screenshot_20230726_201311_Chrome.jpg"
+              alt=""
+              style="width: 12rem; height: 10rem"
+            />
+          </div>
         </div>
-        
-        <footer class="footer  bg-black" style="color: whitesmoke; text-align: center; margin-top: 0.5rem; height: 5rem; padding-top: 2rem;"> 
-            <div class="row">
-              <div class="row">
+      </div>
 
-                <div class="  col-md-3">
-                  <i class="fa-brands fa-square-github"> Github</i>
-                </div>
-
-                <div class="  col-md-3">
-                  <i class="fa-brands fa-linkedin"> Linkedin</i>
-                </div>
-
-                <div class="  col-md-3">
-                  <i class="fa-solid fa-phone"> 0606291917</i>
-                </div>
-
-                <div class="  col-md-3" style="padding-left: 0.5rem;">
-                  <i class="fa-solid fa-envelope"> kgothatsophooko@gmail.com</i>
-                </div>
-  
-              </div>
-              
+      <footer
+        class="footer bg-black col-md-12 col-sm-12"
+        style="
+          color: whitesmoke;
+          text-align: center;
+          margin-top: 0.5rem;
+          padding-top: 2rem;
+          padding-bottom: 2rem;
+        "
+        id="CONTACTS"
+      >
+        <div class="row">
+          <div class="row">
+            <div class="col-md-3 col-sm-3">
+              <a href="https://github.com/Kgothatso-create" style="color: whitesmoke;"><i class="fa-brands fa-square-github"> Github</i></a>
             </div>
-        </footer>
-        
+
+            <div class="col-md-3 col-sm-3">
+              <a href="https://www.linkedin.com/in/kgothatso-phooko-217633259/" style="color: whitesmoke;"><i class="fa-brands fa-linkedin"> Linkedin</i></a>
+            </div>
+
+            <div class="col-md-3 col-sm-3">
+              <i class="fa-solid fa-phone"> 0606291917</i>
+            </div>
+
+            <div class="col-md-3 col-sm-3" style="padding-left: 0.5rem">
+              <i class="fa-solid fa-envelope"> kgothatsophooko@gmail.com</i>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
