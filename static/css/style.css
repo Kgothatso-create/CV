@@ -1,11 +1,34 @@
-/* Apply Flexbox to the container */
-.table-container {
-    display: flex;
-    flex-direction: column; /* Makes the table rows stack vertically */
+/* Normal styles for the custom table */
+.custom-table {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Media query for screens with a maximum width of 768px (phones) */
+@media (max-width: 768px) {
+  .custom-table {
+    display: block;
   }
-  
-  /* Optional: Apply styles to the table for better readability on small screens */
-.table-container table {
+
+  .custom-table thead {
+    display: none;
+  }
+
+  .custom-table tbody,
+  .custom-table tr,
+  .custom-table td {
+    display: block;
     width: 100%;
-    border-collapse: collapse; /* Remove spacing between table cells */
   }
+
+  .custom-table td {
+    /* Optional: Add some spacing between items in the list */
+    margin-bottom: 10px;
+  }
+}
