@@ -37,6 +37,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  padding-left: 2rem;
   /* Add any other styling for the row if needed */
 }
